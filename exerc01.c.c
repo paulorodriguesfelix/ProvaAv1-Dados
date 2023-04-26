@@ -13,30 +13,30 @@ No final deverá mostrar o desconto equivalente e o total a pagar.  */
 
 int main()
 {
-    float valor;
-    float desconto;
-    float total;
+    float valor541;
+    float desconto541;
+    float total541;
     printf("Digite o valor da compra: R$ ");
-    scanf("%f", &valor);
+    scanf("%f", &valor541);
     
-    if(valor <= 5000){
-        desconto = valor * 12 / 100;
-        total = valor - desconto;
+    if(valor541 <= 5000){
+        desconto541 = valor541 * 12 / 100;
+        total541 = valor541 - desconto541;
         
-    } else if(valor > 5000 && valor <= 8000){
-        desconto = valor * 7 / 100;
-        total = valor - desconto;
+    } else if(valor541 > 5000 && valor541 <= 8000){
+        desconto541 = valor541 * 7 / 100;
+        total541 = valor541 - desconto541;
         
-    } else if(valor > 8000 && valor <= 10000){
-        desconto = valor * 4 / 100;
-        total = valor - desconto;
+    } else if(valor541 > 8000 && valor541 <= 10000){
+        desconto541 = valor541 * 4 / 100;
+        total541 = valor541 - desconto541;
         
     } else {
-        desconto = valor * 3 / 100;
-        total = valor - desconto;
+        desconto541 = valor541 * 3 / 100;
+        total541 = valor541 - desconto541;
         
     }
-    printf("Valor do desconto: %.2f\n", desconto);
-    printf("Valor Total a se pagar: %.2f", total);
+    printf("Valor do desconto: %.2f\n", desconto541);
+    printf("Valor Total a se pagar: %.2f", total541);
 
 }
