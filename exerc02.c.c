@@ -7,15 +7,15 @@ Assuma: o número inserido será positivo. */
 
 int main()
 {
-   int n;
-   int impar;
+   int n541;
+   int i541
    printf("Digite um número inteiro: ");
-   scanf("%d", &n);
+   scanf("%d", &n541);
    printf("Números ímpares menores: \n");
    
-   for(int i =0; i < n; i++){
-       if( i % 2 == 1){
-        printf("%d\n ", i);   
+   for(i541 =0; i541 < n541; i541++){
+       if( i541 % 2 == 1){
+        printf("%d\n ", i541);   
        }
        
    }
